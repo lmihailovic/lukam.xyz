@@ -1,0 +1,136 @@
+:root
+{
+    color-scheme: dark light;
+}
+
+body
+{   
+    background-color: #111114;
+    color: #cccccc;
+    margin: 0;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, .furtherReading
+{
+    font-family: 'Times New Roman', Times, serif;   
+}
+a
+{
+    display: inline-block;
+    color: #cccccc;
+}
+
+a:hover
+{
+    color: #ffffff;
+}
+
+.content
+{
+    margin: 5% 10% 0 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.main
+{
+    width: 60ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.articleHeading
+{
+    margin: 1em 0 0.2em 0;
+}
+
+.articleInfo
+{
+    margin: 0.2em 0 0.2em 0;
+    font-size: smaller;
+}
+
+.article
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.articleName
+{
+    margin: 0.2em 0 0.2em 0;
+}
+
+.furtherReading 
+{
+    padding: 3em 0 7em 0;
+    text-align: center;
+    
+    display: inline-block;
+    position: relative;
+
+    /* Move the element to the right by 50% of the container's width */
+    left: 50%; 
+    /* Calculates 50% of the element's width, and moves it by that */ 
+    /* amount across the X-axis to the left */
+    transform: translateX(-50%);
+}
+
+.furtherReading hr
+{
+    width: 95%;
+    height: 0px;
+    margin: auto;
+    padding-bottom: 0.3em;
+    border: 0;
+    border-top: 1px solid;
+}
+
+.furtherReading > *
+{
+    margin: 0 1em 0 1em;
+}
+
+.furtherReading br
+{
+    margin: 0;
+    line-height: 2em;
+}
+
+.furtherReading:last-child
+{
+    margin: 0;
+}
+
+@media screen and (max-width: 605px)
+{
+    .main
+    {
+        width: auto;
+    }
+}
+
+@media (prefers-color-scheme: light)
+{
+    body
+    {
+        background-color: #f5f5f5;
+        color: #111114;
+    }
+
+    a
+    {
+        color: #111114;
+    }
+
+    a:hover
+    {
+        background-color: #111114;
+        text-decoration: none;
+        color: #f5f5f5;
+    }
+
+}

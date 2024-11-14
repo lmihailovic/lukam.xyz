@@ -9,13 +9,21 @@ body
     color: #cccccc;
     margin: 0;
 
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, .furtherReading
 {
-    font-family: 'Times New Roman', Times, serif;   
+    /*font-family: 'Times New Roman', Times, serif;   */
+    /*font-family: Georgia, serif;*/
+    font-family: initial;
 }
+
+p
+{
+    line-height: 1.5;
+}
+
 a
 {
     display: inline-block;

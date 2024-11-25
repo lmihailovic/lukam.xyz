@@ -6,3 +6,9 @@ A script designed to be invoked from the iOS's Shortcuts app. Generates a page w
 ```Shell
 ./mobileCreateBlog.sh "Blog Title" "Current Date" "Content"
 ```
+
+## To do
+As of 25.11.2024:
+- [ ] freshen up the *about* section with newer details
+- [ ] add links to social media
+- [ ] add section with certificates

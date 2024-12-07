@@ -27,17 +27,20 @@ h1, h2, h3, .furtherReading
 p
 {
     line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 q
 {
     font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a
 {
     display: inline-block;
     color: var(--darkmode-text-color);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:hover
@@ -58,8 +61,6 @@ a:hover
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .articleHeading
@@ -110,6 +111,11 @@ a:hover
     border-bottom: 0px;
 }
 
+hr
+{
+    color: 1px solid var(--darkmode-text-color);
+}
+
 .furtherReading nav > *
 {
     margin: 0 1em 0 1em;
@@ -155,6 +161,11 @@ a:hover
     h1, h2, h3, .furtherReading, .furtherReading hr
     {
         color: var(--lightmode-text-color);
+    }
+
+    hr
+    {
+        color: 1px solid var(--lightmode-text-color);
     }
 
     a

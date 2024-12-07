@@ -16,14 +16,11 @@ body
     color: var(--darkmode-heading-color);
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-
     font-size: 1.1em;
 }
 
 h1, h2, h3, .furtherReading
 {
-    font-family: initial;
     color: var(--darkmode-heading-color);
 }
 
@@ -61,6 +58,8 @@ a:hover
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .articleHeading

@@ -48,6 +48,11 @@ h2 a
     font-family: initial;
 }
 
+hr
+{
+    color: 1px solid var(--darkmode-text-color);
+}
+
 a:hover
 {
     color: var(--lightmode-bg-color);
@@ -116,9 +121,9 @@ a:hover
     border-bottom: 0px;
 }
 
-hr
+.furtherReading a
 {
-    color: 1px solid var(--darkmode-text-color);
+    font-family: initial;
 }
 
 .furtherReading nav > *

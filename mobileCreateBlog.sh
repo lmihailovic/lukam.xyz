@@ -28,8 +28,9 @@ echo '<!DOCTYPE html>
 
     <footer class="furtherReading">
         <hr>
-
-        <a href="/software">software</a><a href="/">home</a><a href="/hobbies">hobbies</a><a href="/about">about</a><br><a href="/Luka_Mihailovic_CV.pdf" download="Luka_Mihailovic_CV.pdf">житије (cv)</a>
+        <nav>
+            <a href="/software">software</a><a href="/">home</a><a href="/hobbies">hobbies</a><a href="/about">about</a><br><a href="/Luka_Mihailovic_CV.pdf" download="Luka_Mihailovic_CV.pdf">житије (cv)</a>
+        </nav>
     </footer>
 </body>                                                                          
 </html>' > ~/web/lukam.xyz/public_html/blog/$FILENAME.html 

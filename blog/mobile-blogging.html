@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" href="/css/page-style.css">
+    <title>Mobile blogging | Luka's Webpage</title>
+</head>
+<body>
+    <div class="content">
+        <div class="main">
+            <span><a href="/blog" class="articleHeading"> &blacktriangleleft; back</a></span>
+            <h1 style="margin: 1em 0 0.2em 0;">Mobile blogging</h1>
+            <p class="articleInfo">November 14, 2024</p>
+
+			<p> The pinnacle of human evolution, smartphones, finally utilised in the most braindead backwards way imaginable! </p> <p> After being reminded that the iPhone could run shell scripts over ssh via its Shortcuts app, I couldn't help but come up with the most idiotic possible application for that... </p> <p><b>Mobile blogging</b></p> <p> ... and so began my quest on writing a shell script which would take the boilerplate html for a typical page in my /blog/ section, and somehow inject into it the text from my phone, along with the system date (because what good is an article if there is no date of publishing?). Now of course, there was a matter of the Shortcut on the phone itself, which turned out to be a bigger headache than the script which spits out html files containing the blog itself and updates the index file. </p> <p> The Shortcut was quite a beast to wrangle, seeing as once you get used to typing code, drag-and-drop tends to feel like you are speaking some alien language where everything is oddly visual. <br> And on top of it, the SSH connection doesn't allow for command arguments longer than a certain amount of characters (well below the typical blog length), so certain hackery with writing to temp files, echoing them and deleting them afterwards was required to get everything working. </p> <p> Alas, I am proud to announce this new era of mobile blogging, and invite you all to share my joy of reinventing the wheel! </p>
+		</div>
+	</div>
+
+    <footer class="furtherReading">
+        <hr>
+
+        <a href="/software">software</a><a href="/">home</a><a href="/hobbies">hobbies</a><a href="/about">about</a><br><a href="/Luka_Mihailovic_CV.pdf" download="Luka_Mihailovic_CV.pdf">житије (cv)</a>
+    </footer>
+</body>                                                                          
+</html>

@@ -43,6 +43,11 @@ a
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 a
+{
+    font-family: initial;
+}
+
 a:hover
 {
     color: var(--lightmode-bg-color);

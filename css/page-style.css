@@ -1,20 +1,30 @@
 :root
 {
     color-scheme: dark light;
+
+    --darkmode-bg-color: #282828;
+    --darkmode-text-color: #d5c4a1;
+    --darkmode-heading-color: #ebdbb2;
+
+    --lightmode-bg-color: #fbf1c7;
+    --lightmode-text-color: #3c3836;
 }
 
 body
 {   
-    background-color: #111114;
-    color: #cccccc;
+    background-color: var(--darkmode-bg-color);
+    color: var(--darkmode-heading-color);
     margin: 0;
 
     font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1.1em;
 }
 
 h1, h2, h3, .furtherReading
 {
     font-family: initial;
+    color: var(--darkmode-heading-color);
 }
 
 p
@@ -22,27 +32,32 @@ p
     line-height: 1.5;
 }
 
+q
+{
+    font-style: italic;
+}
+
 a
 {
     display: inline-block;
-    color: #cccccc;
+    color: var(--darkmode-text-color);
 }
 
 a:hover
 {
-    color: #ffffff;
+    color: var(--lightmode-bg-color);
 }
 
 .content
 {
-    margin: 5% 10% 0 10%;
+    margin: 5% 5% 0 5%;
     display: flex;
     justify-content: center;
 }
 
 .main
 {
-    width: 60ch;
+    width: 75ch;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,9 +108,10 @@ a:hover
     padding-bottom: 0.3em;
     border: 0;
     border-top: 1px solid;
+
 }
 
-.furtherReading > *
+.furtherReading nav > *
 {
     margin: 0 1em 0 1em;
 }
@@ -112,10 +128,20 @@ a:hover
 }
 
 @media screen and (max-width: 605px)
-{
+{   
+    .content
+    {
+        margin: 2% 2% 0 2%;
+    }
+
     .main
     {
         width: auto;
+    }
+
+    .furtherReading > *
+    {
+        margin: 0 0.9em 0 0.9em;
     }
 }
 
@@ -123,20 +149,25 @@ a:hover
 {
     body
     {
-        background-color: #f5f5f5;
-        color: #111114;
+        background-color: var(--lightmode-bg-color);
+        color: var(--lightmode-text-color);
+    }
+
+    h1, h2, h3, .furtherReading
+    {
+        color: var(--lightmode-text-color);
     }
 
     a
     {
-        color: #111114;
+        color: var(--lightmode-text-color);
     }
 
     a:hover
     {
-        background-color: #111114;
+        background-color: var(--lightmode-text-color);
         text-decoration: none;
-        color: #f5f5f5;
+        color: var(--lightmode-bg-color);
     }
 
 }

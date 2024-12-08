@@ -3,8 +3,8 @@
     color-scheme: dark light;
 
     --darkmode-bg-color: #282828;
-    --darkmode-text-color: #d5c4a1;
     --darkmode-heading-color: #ebdbb2;
+    --darkmode-text-color: #d5c4a1;
 
     --lightmode-bg-color: #fbf1c7;
     --lightmode-text-color: #3c3836;
@@ -12,8 +12,8 @@
 
 body
 {   
-    background-color: var(--darkmode-bg-color);
-    color: var(--darkmode-heading-color);
+    background-color: light-dark(var(--lightmode-bg-color), var(--darkmode-bg-color));
+    color: light-dark(var(--lightmode-text-color), var(--darkmode-heading-color));
     margin: 0;
 
     font-size: 1.1em;
@@ -21,7 +21,7 @@ body
 
 h1, h2, h3, .furtherReading
 {
-    color: var(--darkmode-heading-color);
+    color: light-dark(var(--lightmode-text-color), var(--darkmode-heading-color));
 }
 
 p
@@ -39,7 +39,7 @@ q
 a
 {
     display: inline-block;
-    color: var(--darkmode-text-color);
+    color: light-dark(var(--lightmode-text-color), var(--darkmode-text-color));
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -50,12 +50,55 @@ h2 a
 
 hr
 {
-    color: 1px solid var(--darkmode-text-color);
+    color: 1px solid light-dark( var(--lightmode-text-color), var(--darkmode-text-color));
+    border-bottom: 0px;
+}
+
+table
+{
+    border: 0;
+    font-size: 1em;
+    letter-spacing: 1px;
+
+    border-spacing: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table caption
+{
+    padding-top: 1em;
+    caption-side: bottom;
+}
+
+
+tr
+{
+    border: 0px;
+}
+
+thead, th
+{
+    background-color: 
+        light-dark(var(--darkmode-heading-color) ,var(--lightmode-text-color));
+    border-left: 2px solid light-dark(var(--lightmode-bg-color) ,var(--darkmode-bg-color));
+}
+
+tbody > tr:nth-of-type(even)
+{
+    background-color: light-dark(var(--darkmode-heading-color) ,var(--lightmode-text-color));
+}
+
+td
+{
+    padding: 0.2em 0.7em 0.2em 0.7em;
 }
 
 a:hover
 {
     color: var(--lightmode-bg-color);
+    text-decoration: light-dark(none, underline);
+    background-color: light-dark(var(--lightmode-text-color), var(--darkmode-bg-color));
 }
 
 .content
@@ -67,7 +110,7 @@ a:hover
 
 .main
 {
-    width: 75ch;
+    width: 70ch;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,36 +201,4 @@ a:hover
     {
         margin: 0 0.9em 0 0.9em;
     }
-}
-
-@media (prefers-color-scheme: light)
-{
-    body
-    {
-        background-color: var(--lightmode-bg-color);
-        color: var(--lightmode-text-color);
-    }
-
-    h1, h2, h3, .furtherReading, .furtherReading hr
-    {
-        color: var(--lightmode-text-color);
-    }
-
-    hr
-    {
-        color: 1px solid var(--lightmode-text-color);
-    }
-
-    a
-    {
-        color: var(--lightmode-text-color);
-    }
-
-    a:hover
-    {
-        background-color: var(--lightmode-text-color);
-        text-decoration: none;
-        color: var(--lightmode-bg-color);
-    }
-
 }

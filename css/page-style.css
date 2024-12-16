@@ -5,6 +5,7 @@
     --darkmode-bg-color: #282828;
     --darkmode-text-color: #d5c4a1;
     --darkmode-heading-color: #ebdbb2;
+    --darkmode-subtle-accent-clor: #504945;
 
     --lightmode-bg-color: #fbf1c7;
     --lightmode-text-color: #3c3836;
@@ -56,13 +57,14 @@ hr
 
 table
 {
-    border: 0;
-    font-size: 1em;
-    letter-spacing: 1px;
-
+    border: 1px solid light-dark( var(--darkmode-text-color),var(--darkmode-subtle-accent-clor));
     border-spacing: 0px;
 
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+
+    width: 90%;
+    margin: auto;
 }
 
 table caption
@@ -79,19 +81,20 @@ tr
 
 thead, th
 {
+    text-align: left;
+    padding: 0.2em 0.7em 0.2em 0.7em;
     background-color: 
         light-dark(var(--darkmode-heading-color) ,var(--lightmode-text-color));
-    border-left: 2px solid light-dark(var(--lightmode-bg-color) ,var(--darkmode-bg-color));
-}
-
-tbody > tr:nth-of-type(even)
-{
-    background-color: light-dark(var(--darkmode-heading-color) ,var(--lightmode-text-color));
 }
 
 td
 {
     padding: 0.2em 0.7em 0.2em 0.7em;
+}
+
+tr:not(:last-child) td
+{
+    border-bottom: 1px solid light-dark( var(--darkmode-text-color),var(--lightmode-text-color));
 }
 
 a:hover

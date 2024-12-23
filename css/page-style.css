@@ -17,7 +17,8 @@ body
     color: light-dark(var(--lightmode-text-color), var(--darkmode-heading-color));
     margin: 0;
 
-    font-size: 1.1em;
+    line-height: 1.6;
+    font-size: 1em;
 }
 
 h1, h2, h3, .furtherReading
@@ -27,7 +28,6 @@ h1, h2, h3, .furtherReading
 
 p
 {
-    line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
 

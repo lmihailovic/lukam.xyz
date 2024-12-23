@@ -19,29 +19,26 @@ body
 
     line-height: 1.6;
     font-size: 1em;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, .furtherReading
 {
     color: light-dark(var(--lightmode-text-color), var(--darkmode-heading-color));
-}
 
-p
-{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: initial;
 }
 
 q
 {
     font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a
 {
     display: inline-block;
     color: light-dark(var(--lightmode-text-color), var(--darkmode-text-color));
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 a
@@ -61,7 +58,6 @@ table
     border-spacing: 0px;
 
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
 
     width: 100%;
     margin: auto;

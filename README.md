@@ -12,7 +12,7 @@ As of 22.12.2024:
 - [ ] freshen up the *about* section with newer details
 - [ ] add links to social media
 - [ ] add section with certificates
-- [ ] change body font to *Verdana*
-- [ ] make the website wider (75ch seems like a good candidate)
-- [ ] reduce the font size back to 1em
-- [ ] increase the line height to 1.6
+- [x] change body font to *Verdana*
+- [x] make the website wider (75ch seems like a good candidate)
+- [x] reduce the font size back to 1em
+- [x] increase the line height to 1.6

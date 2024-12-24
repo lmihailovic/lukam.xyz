@@ -18,7 +18,6 @@ body
     margin: 0;
 
     line-height: 1.6;
-    font-size: 1em;
 
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
@@ -27,7 +26,7 @@ h1, h2, h3, .furtherReading
 {
     color: light-dark(var(--lightmode-text-color), var(--darkmode-heading-color));
 
-    font-family: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 q

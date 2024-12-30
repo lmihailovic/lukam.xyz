@@ -2,65 +2,73 @@
 {
     color-scheme: dark light;
 
-    --darkmode-bg-color: #282828;
-    --darkmode-text-color: #d5c4a1;
-    --darkmode-heading-color: #ebdbb2;
+    /* COLORS */
+    
+    /* DARK MODE*/
+    --darkmode-red:         #cc241d;
+    --darkmode-red-alt:     #fb4934;
+    --darkmode-green:       #98971a;
+    --darkmode-green-alt:   #b8bb26;
+    --darkmode-yellow:      #d79921;
+    --darkmode-yellow-alt:  #fabd2f;
+    --darkmode-blue:        #458588;
+    --darkmode-blue-alt:    #83a598;
+    --darkmode-purple:      #b16286;
+    --darkmode-purple-alt:  #d3869b;
+    --darkmode-aqua:        #689d6a;
+    --darkmode-aqua-alt:    #8ec07c;
+    --darkmode-orange:      #d65d0e;
+    --darkmode-orange-alt:  #fe8019;
+    --darkmode-gray:        #928374;
 
-    --lightmode-bg-color: #fbf1c7;
-    --lightmode-text-color: #3c3836;
-}
+    /* Background Shades */
+    --darkmode-bg0_h:   #1d2021;
+    --darkmode-bg0:     #282828;
+    --darkmode-bg0_s:   #32302f;
+    --darkmode-bg1:     #3c3836;
+    --darkmode-bg2:     #504945;
+    --darkmode-bg3:     #665c54;
+    --darkmode-bg4:     #7c6f64;
 
-body
-{   
-    background-color: var(--darkmode-bg-color);
-    color: var(--darkmode-text-color);
-}
+    /* Foreground Shades */
+    --darkmode-fg:  #ebdbb2;
+    --darkmode-fg1: #ebdbb2;
+    --darkmode-fg2: #d5c4a1;
+    --darkmode-fg3: #bdae93;
+    --darkmode-fg4: #a89984;
 
-a
-{
-    display: inline-block;
-    color: var(--darkmode-text-color);
-}
-
-a:hover
-{
-    color: var(--lightmode-bg-color);
-}
-
-.telNumber:link, .emailAddress:link
-{
-    text-decoration: none;
-}
-
-.telNumber:hover, .emailAddress:hover
-{
-    text-decoration: underline;
-}
+    /* LIGHT MODE */
+    --lightmode-red:        #cc241d;
+    --lightmode-red-alt:    #9d0006;
+    --lightmode-green:      #98971a;
+    --lightmode-green-alt:  #79740e;
+    --lightmode-yellow:     #d79921;
+    --lightmode-yellow-alt: #b57614;
+    --lightmode-blue:       #458588;
+    --lightmode-blue-alt:   #076678;
+    --lightmode-purple:     #b16286;
+    --lightmode-purple-alt: #8f3f71;
+    --lightmode-aqua:       #689d6a;
+    --lightmode-aqua-alt:   #427b58;
+    --lightmode-orange:     #d65d0e;
+    --lightmode-orange-alt: #af3a03;
+    --lightmode-gray:       #928374;
   
-@media (prefers-color-scheme: light)
-{
-    body
-    {
-        background-color: var(--lightmode-bg-color);
-        color: var(--lightmode-text-color);
-    }
-
-    a
-    {
-        color: var(--lightmode-text-color);
-    }
-
-    a:hover
-    {
-        background-color: var(--lightmode-text-color);
-        text-decoration: none;
-        color: var(--lightmode-bg-color);
-    }
-
-    .telNumber:hover, .emailAddress:hover
-    {
-        text-decoration: none;
-    }
+    /* Background Shades */
+    --lightmode-bg0_h:  #f9f5d7;
+    --lightmode-bg0:    #fbf1c7;
+    --lightmode-bg0_s:  #f2e5bc;
+    --lightmode-bg1:    #ebdbb2;
+    --lightmode-bg2:    #d5c4a1;
+    --lightmode-bg3:    #bdae93;
+    --lightmode-bg4:    #a89984;
+  
+    /* Foreground Shades */
+    --lightmode-fg:     #3c3836;
+    --lightmode-fg1:    #3c3836;
+    --lightmode-fg2:    #504945;
+    --lightmode-fg3:    #665c54;
+    --lightmode-fg4:    #7c6f64;
 }
 
 html, body
@@ -69,6 +77,9 @@ html, body
     height: 100%;
     margin: 0;
     padding: 0;
+
+    background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg0));
+    color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 }
 
 h1, p, a
@@ -76,11 +87,69 @@ h1, p, a
     margin: 0;
 }
 
+a
+{
+    display: inline-block;
+    color: light-dark(var(--lightmode-blue-alt), var(--darkmode-blue));
+}
+
+a:hover
+{
+    color: light-dark(var(--lightmode-blue), var(--darkmode-blue-alt));
+}
+
+a:active
+{
+    color: light-dark(var(--lightmode-bg), var(--darkmode-bg));
+    background-color: light-dark(var(--lightmode-blue), var(--darkmode-blue-alt));
+}
+
+a:visited
+{
+    color: light-dark(var(--lightmode-purple-alt), var(--darkmode-purple));
+}
+
+a:visited:hover
+{
+    color: light-dark(var(--lightmode-purple), var(--darkmode-purple-alt));
+}
+
+a:visited:active
+{
+    color: light-dark(var(--lightmode-bg), var(--darkmode-bg));
+    background-color: light-dark(var(--lightmode-purple), var(--darkmode-purple-alt));
+}
+
 .main
 {
     position: inherit;
     top: 36%;
     text-align: center;
+}
+
+
+.contact:link
+{
+    text-decoration: none;
+    color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
+
+}
+
+.contact:hover
+{
+    text-decoration: underline;
+    color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
+}
+
+.contact:active
+{
+    color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
+    background-color: transparent;
+}
+
+.contact:visited
+{
+    color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 }
 
 .furtherReading 

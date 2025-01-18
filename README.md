@@ -12,4 +12,6 @@ As of 18.1.2025:
 - [ ] freshen up the *about* section with newer details
 - [ ] add links to social media
 - [ ] add section with certificates
+- [ ] try and remove the unnecessary divs for centering the content
+- [ ] GET HELP FROM A PROPER DESIGNER TO MAKE THE WEBSITE LOOK PRESENTABLE
 

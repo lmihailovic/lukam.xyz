@@ -77,14 +77,9 @@ body
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
     margin: 0;
 
-    line-height: 1.6;
+    line-height: 1.5;
 
     font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-h1, h2, h3, .furtherReading
-{
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 q
@@ -123,11 +118,6 @@ a:visited:active
 {
     color: light-dark(var(--lightmode-bg), var(--darkmode-bg));
     background-color: light-dark(var(--lightmode-purple), var(--darkmode-purple-alt));
-}
-
-h2 a
-{
-    font-family: initial;
 }
 
 hr
@@ -261,11 +251,6 @@ tr:last-child td
     height: 0px;
     margin: auto;
     padding-bottom: 0.3em;
-}
-
-.furtherReading a
-{
-    font-family: initial;
 }
 
 .furtherReading nav > *

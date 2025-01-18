@@ -12,7 +12,7 @@ echo '<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
-    <link rel="stylesheet" href="/css/page-style.css">
+    <link rel="stylesheet" href="../css/page-style.css">
     <title>'$TITLE' | Luka'\''s Webpage</title>
 </head>
 <body>

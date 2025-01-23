@@ -129,22 +129,19 @@ a:visited:active
 hr
 {
     border: 0px;
-    border-top: 1px solid light-dark( var(--lightmode-bg1), var(--darkmode-fg4));
+    border-top: 1px solid light-dark( var(--lightmode-fg4), var(--darkmode-fg4));
 }
 
 table
 {
-    border: 0;
-    border: 1px solid light-dark( var(--lightmode-bg3),var(--darkmode-bg2));
-    border-spacing: 0px;
-    border-radius: 10px;
+    border: 1px solid light-dark(var(--lightmode-bg3), var(--darkmode-bg2));
+    border-collapse: collapse;
 
     width: 100%;
     margin: auto;
     
-    background-color: 
-        light-dark(var(--lightmode-bg0_s) ,var(--darkmode-bg0_s));
-    background-clip: border-box;
+    background-color: light-dark(var(--lightmode-bg0_s) ,var(--darkmode-bg1));
+    box-shadow: 3px 3px light-dark(var(--darkmode-gray), var(--darkmode-bg0_h));
 }
 
 table caption
@@ -153,65 +150,38 @@ table caption
     caption-side: bottom;
 }
 
-tr
-{
-    border: 0px;
-}
-
 th
 {
-    text-align: left;
-    padding: 0.2em 0.7em 0.2em 0.7em;
+    padding: 0.2em 0.3em 0.2em 0.3em;
 
     border: 1px solid light-dark( var(--lightmode-bg3),var(--darkmode-bg2));
-    border-top: 0;
-    border-left: 1px;
-}
-
-th:nth-child(1)
-{
-    border-left: 0;
-}
-
-th:last-child
-{
-    border-right: 0;
 }
 
 td
 {
-    padding: 0.2em 0.7em 0.2em 0.7em;
+    padding: 0.2em 0.3em 0.2em 0.3em;
 
     border: 1px solid light-dark(var(--lightmode-bg3), var(--darkmode-bg2));
-    border-top: 0;
-    border-left: 0;
-
     background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg0));
-}
 
-td:last-child
-{
-    border-right: 0;
-}
-
-tr:last-child td
-{
-    border-bottom: 0;
-}
-
-.content
-{
-    margin: 5% 5% 0 5%;
-    display: flex;
-    justify-content: center;
+    text-overflow: ellipsis;
 }
 
 .main
 {
-    width: 75ch;
+    margin: auto;
+    margin-top: 5%;
+
+    padding: 1em;
+
+    width: 77ch;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    background-color: light-dark(var(--lightmode-bg0_h), var(--darkmode-bg0_s));
+    border: 1px solid light-dark(var(--darkmode-bg0_h), var(--darkmode-bg2));
+    box-shadow: 4px 4px light-dark(var(--darkmode-gray), var(--darkmode-bg0_h));
 }
 
 .articleHeading
@@ -275,16 +245,13 @@ tr:last-child td
     margin: 0;
 }
 
-@media screen and (max-width: 605px)
+@media screen and (max-width: 740px)
 {   
-    .content
-    {
-        margin: 2% 2% 0 2%;
-    }
 
     .main
     {
         width: auto;
+        margin: 0.5em;
     }
 
     .furtherReading > *

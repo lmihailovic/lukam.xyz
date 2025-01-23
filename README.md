@@ -9,7 +9,7 @@ A served-side script designed to be invoked from the iOS's Shortcuts app. Genera
 
 ## To do
 As of 18.1.2025:
-- [ ] freshen up the *about* section with newer details
+- [x] freshen up the *about* section with newer details
 - [x] add links to social media
-- [ ] add section with certificates
+- [x] add section with certificates
 - [x] try and remove the unnecessary divs for centering the content

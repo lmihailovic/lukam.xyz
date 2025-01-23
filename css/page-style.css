@@ -73,7 +73,7 @@
 
 body
 {   
-    background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg0));
+    background-color: light-dark(var(--lightmode-bg0_s), var(--darkmode-bg0));
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
     margin: 0;
 
@@ -129,7 +129,44 @@ a:visited:active
 hr
 {
     border: 0px;
-    border-top: 1px solid light-dark( var(--lightmode-fg4), var(--darkmode-fg4));
+    border-top: 1px solid light-dark(var(--lightmode-fg4), var(--darkmode-fg4));
+}
+
+figure
+{
+    margin: 1em 1em 1em 1em;
+    width: auto;
+}
+
+figcaption
+{
+    margin-top: 0.7em;
+}
+
+pre
+{
+    margin: 0;
+
+    background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg1));
+    border: 1px solid light-dark(var(--lightmode-bg4), var(--darkmode-bg2));
+    box-shadow: 3px 3px light-dark(var(--darkmode-gray), var(--darkmode-bg0_h));
+
+    overflow: auto;
+}
+
+kbd
+{
+    background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg1));
+
+    border-radius: 4px;
+    border: 1px solid light-dark(var(--lightmode-bg4), var(--darkmode-bg2));
+
+    box-shadow: 0px 2px 1px light-dark(var(--darkmode-gray), var(--darkmode-bg0_h)),
+    0px 1px 0 0 light-dark(var(--lightmode-bg0_h), var(--darkmode-bg4)) inset ;
+
+    font-weight: 600;
+    
+    padding: 2px 4px;
 }
 
 table
@@ -247,7 +284,6 @@ td
 
 @media screen and (max-width: 740px)
 {   
-
     .main
     {
         width: auto;

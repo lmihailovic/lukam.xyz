@@ -78,7 +78,7 @@ html, body
     margin: 0;
     padding: 0;
 
-    background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg0));
+    background-color: light-dark(var(--lightmode-bg0_s), var(--darkmode-bg0));
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 }
 

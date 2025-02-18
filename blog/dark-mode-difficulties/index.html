@@ -38,11 +38,6 @@ color: light-dark(var(--light-color), var(--dark-color));</pre>
                 on which black is too black, which white is blinding white,
                 what to do with the drop shadows... 
             </p>
-            <p>
-                It seems intuitive, but when it comes to assigning the
-                colour values to css classes, one can quickly find
-                themselves humbled.
-            </p>
 
             <figure>
                 <a href="Screenshot 2025-02-18 at 02-41-11 Overcoming dark mode difficulties Luka's Webpage.png">
@@ -51,6 +46,64 @@ color: light-dark(var(--light-color), var(--dark-color));</pre>
                 </a>
                 <figcaption>The old dark mode look</figcaption>
             </figure>
+
+            <p>
+                Thus, a question is imposed. Do we just do a plain re-mapping
+                of colours, 1:1 so to speak, or do we further analyse the need
+                for dark mode, and see how to best approach it and it's philosophy.
+                After all, dark mode is used (in my experience,at least), firstly
+                for the comfort of the readers' eyes, and secondly due to it's
+                battery and screen saving properties. 
+            </p>
+
+            <p>
+                If guided by the second point, we should strive for the darkest
+                shades we can achieve, a pure <code>#000000</code> black to be precise, so that
+                we turn off the pixels for users with OLED displays capable of
+                per-pixel lighting.
+                However, the first point mandates than we neither have too big
+                of a contrast between the background and foreground (text), else
+                we will cause the user to see "ghosts" around the characters,
+                as if they were glowing.
+            </p>
+
+            <p>
+                Because of the conundrum in the paragraph above, <b>it's recognised
+                as a good practice to never use pure blacks or pure whites.</b> 
+            </p>
+
+            <p>
+                Side note: because of personal taste, which uses the excuse of
+                blue light being bad for one's eyes, I will gravitate towards
+                warmer colors and hues which have less of a blue component in them.
+            </p>
+
+            <figure>
+                <a href="gruvbox-colours.png">
+                    <img src="gruvbox-colours.png" alt="The gruvbox dark colour palette">
+                </a>
+                <figcaption>
+                    The gruvbox dark colour palette. Every colour is "warm", even the darks
+                    and the blues. Source on <a href="https://github.com/morhetz/gruvbox">github</a>
+                </figcaption>
+            </figure>
+
+            <p>
+                You may have looked at the image of how this website used to
+                look in dark mode, and asked yourself: <i>What was wrong with it?</i><br>
+                A fair question.<br><i>Shadows.</i>
+            </p>
+            <p>
+                I couldn't have drop shadows in dark mode (as are present so
+                gorgeously in light mode here), due to the fact it's pretty
+                damn stupid to have shadows in <u>DARK</u> mode, where there
+                is perhaps NO LIGHT coming and everything is engulfed in a 
+                shadow already. Not to mention, the challenges of making sure
+                shadows are dark enough to be noticed, and the base content isn't 
+                a shade so undecidedly dark it looks like
+                <a href="https://en.wikipedia.org/wiki/Middle_gray">middle gray</a>,
+                just to make sure that the shadows pop.
+            </p>
 
         </div>
     </div>

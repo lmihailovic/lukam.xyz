@@ -179,6 +179,7 @@ kbd
     0px 1px 0 0 light-dark(var(--lightmode-bg0_h), var(--darkmode-bg4)) inset ;
 
     font-weight: 600;
+    font-size: 15px; 
     
     padding: 2px 4px;
 }

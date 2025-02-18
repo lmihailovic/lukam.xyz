@@ -80,6 +80,7 @@ body
     line-height: 1.5;
 
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
 }
 
 q
@@ -137,14 +138,23 @@ figure
     width: auto;
 }
 
+figure img
+{
+    width: 100%;
+}
+
 figcaption
 {
     margin-top: 0.7em;
+    font-style: italic;
 }
 
 pre
 {
     margin: 0;
+    padding: 0.5em;
+
+    font-size: 15px;
 
     background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg1));
     border: 1px solid light-dark(var(--lightmode-bg4), var(--darkmode-bg2));

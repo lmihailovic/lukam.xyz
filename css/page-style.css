@@ -99,6 +99,11 @@ a
     color: light-dark(var(--lightmode-blue-alt), var(--darkmode-blue));
 }
 
+a:has( > img)
+{
+    display: flex;
+}
+
 a:hover
 {
     color: light-dark(var(--lightmode-blue), var(--darkmode-blue-alt));

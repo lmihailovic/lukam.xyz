@@ -80,7 +80,7 @@ body
     line-height: 1.5;
 
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 q
@@ -222,7 +222,7 @@ td
 .main
 {
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
 
     padding: 1em;
 

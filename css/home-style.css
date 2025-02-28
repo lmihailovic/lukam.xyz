@@ -82,6 +82,11 @@ html, body
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 }
 
+body
+{
+    display: flex;
+}
+
 h1, p, a
 {
     margin: 0;
@@ -122,8 +127,6 @@ a:visited:active
 
 .main
 {
-    position: inherit;
-    top: 30%;
     text-align: center;
     margin: auto;
 

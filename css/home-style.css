@@ -125,7 +125,6 @@ a:visited:active
 {
     text-decoration: none;
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
-
 }
 
 .contact:hover

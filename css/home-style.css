@@ -5,21 +5,10 @@
     /* COLORS */
     
     /* DARK MODE*/
-    --darkmode-red:         #cc241d;
-    --darkmode-red-alt:     #fb4934;
-    --darkmode-green:       #98971a;
-    --darkmode-green-alt:   #b8bb26;
-    --darkmode-yellow:      #d79921;
-    --darkmode-yellow-alt:  #fabd2f;
     --darkmode-blue:        #458588;
     --darkmode-blue-alt:    #83a598;
     --darkmode-purple:      #b16286;
     --darkmode-purple-alt:  #d3869b;
-    --darkmode-aqua:        #689d6a;
-    --darkmode-aqua-alt:    #8ec07c;
-    --darkmode-orange:      #d65d0e;
-    --darkmode-orange-alt:  #fe8019;
-    --darkmode-gray:        #928374;
 
     /* Background Shades */
     --darkmode-bg0_h:   #1d2021;
@@ -38,21 +27,10 @@
     --darkmode-fg4: #a89984;
 
     /* LIGHT MODE */
-    --lightmode-red:        #cc241d;
-    --lightmode-red-alt:    #9d0006;
-    --lightmode-green:      #98971a;
-    --lightmode-green-alt:  #79740e;
-    --lightmode-yellow:     #d79921;
-    --lightmode-yellow-alt: #b57614;
     --lightmode-blue:       #458588;
     --lightmode-blue-alt:   #076678;
     --lightmode-purple:     #b16286;
     --lightmode-purple-alt: #8f3f71;
-    --lightmode-aqua:       #689d6a;
-    --lightmode-aqua-alt:   #427b58;
-    --lightmode-orange:     #d65d0e;
-    --lightmode-orange-alt: #af3a03;
-    --lightmode-gray:       #928374;
   
     /* Background Shades */
     --lightmode-bg0_h:  #f9f5d7;
@@ -78,7 +56,9 @@ html, body
     margin: 0;
     padding: 0;
 
-    background-color: light-dark(var(--lightmode-bg0_s), var(--darkmode-bg0));
+    font-size: 18px;
+
+    background-color: light-dark(var(--lightmode-bg0_s), var(--darkmode-bg0_h));
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 }
 
@@ -130,12 +110,12 @@ a:visited:active
     text-align: center;
     margin: auto;
 
-    padding: 3.5em 0 3em 0;
+    padding: 5em 0 3em 0;
 
-    height: 14em;
-    width: 41em;
+    height: 12em;
+    width: 36em;
 
-    background-color: light-dark(var(--lightmode-bg0_h), var(--darkmode-bg0_s));
+    background-color: light-dark(var(--lightmode-bg0_h), var(--darkmode-bg0));
     border: 1px solid light-dark(var(--darkmode-bg0_h), var(--darkmode-bg2));
     box-shadow: 4px 4px light-dark(var(--darkmode-gray), var(--darkmode-bg0_h));
 }
@@ -167,7 +147,7 @@ a:visited:active
 
 .furtherReading 
 {
-    padding-top: 4em;
+    padding-top: 2em;
     font-family: Arial, Helvetica, sans-serif;
 }
 

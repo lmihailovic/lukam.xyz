@@ -163,7 +163,7 @@ pre
 
     background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg0_s));
     border: 1px solid light-dark(var(--lightmode-bg4), var(--darkmode-bg3));
-    box-shadow: 3px 3px light-dark(var(--darkmode-gray), none);
+    box-shadow: 3px 3px light-dark(var(--darkmode-gray), var(--darkmode-bg0));
 
     overflow: auto;
 }
@@ -193,7 +193,7 @@ table
     margin: auto;
     
     background-color: light-dark(var(--lightmode-bg0_s), var(--darkmode-bg0_s));
-    box-shadow: 3px 3px light-dark(var(--darkmode-gray), none);
+    box-shadow: 3px 3px light-dark(var(--darkmode-gray), var(--darkmode-bg0));
 }
 
 table caption
@@ -233,7 +233,7 @@ td
 
     background-color: light-dark(var(--lightmode-bg0_h), var(--darkmode-bg0));
     border: 1px solid light-dark(var(--darkmode-bg0_h), var(--darkmode-bg3));
-    box-shadow: 4px 4px light-dark(var(--darkmode-gray), none);
+    box-shadow: 4px 4px light-dark(var(--darkmode-gray), var(--darkmode-bg0_h));
 }
 
 .articleHeading

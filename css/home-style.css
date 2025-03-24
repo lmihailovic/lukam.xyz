@@ -9,6 +9,7 @@
     --darkmode-blue-alt:    #83a598;
     --darkmode-purple:      #b16286;
     --darkmode-purple-alt:  #d3869b;
+    --darkmode-gray:        #928374;
 
     /* Background Shades */
     --darkmode-bg0_h:   #1d2021;
@@ -31,6 +32,7 @@
     --lightmode-blue-alt:   #076678;
     --lightmode-purple:     #b16286;
     --lightmode-purple-alt: #8f3f71;
+    --lightmode-gray:       #928374;
   
     /* Background Shades */
     --lightmode-bg0_h:  #f9f5d7;

@@ -19,7 +19,7 @@ echo '<!DOCTYPE html>
     <div class="content">
         <div class="main">
             <span><a href="/blog" class="articleHeading"> &blacktriangleleft; back</a></span>
-            <h1 style="margin: 1em 0 0.2em 0;">'$TITLE'</h1>
+            <h1 class="articleHeading">'$TITLE'</h1>
             <p class="articleInfo">'$DATE'</p>
 
 			'$(echo $CONTENT | sed "s/'/\\'/g")'

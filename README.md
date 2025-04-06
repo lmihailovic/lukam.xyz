@@ -8,8 +8,6 @@ A served-side script designed to be invoked from the iOS's Shortcuts app. Genera
 ```
 
 ## To do
-As of 18.1.2025:
-- [x] freshen up the *about* section with newer details
-- [x] add links to social media
-- [x] add section with certificates
-- [x] try and remove the unnecessary divs for centering the content
+As of 24.3.2025:
+- [ ] fix home page on mobile
+- [ ] add more software projects

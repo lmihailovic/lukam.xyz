@@ -149,7 +149,7 @@ a:visited:active
 .furtherReading 
 {
     padding-top: 1.8em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; 
     line-height: 1.5em;
 }
 

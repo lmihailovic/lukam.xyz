@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" href="../css/page-style.css">
+    <title>Note on using a NAT in a qemu/kvm VM | Luka's Webpage</title>
+</head>
+<body>
+    <div class="content">
+        <div class="main">
+            <span><a href="/blog" class="articleHeading"> &blacktriangleleft; back</a></span>
+            <h1 class="articleHeading">Note on using a NAT in a qemu/kvm VM</h1>
+            <p class="articleInfo">June 8, 2025</p>
+
+			<p>
+                A short one today, since I wanted to share my easy fix to a seemingly not so easy problem I recently encountered.
+            </p>
+            <p>
+                When running a VM on Linux using the qemu/kvm, you might encounter issues with giving the VM
+                internet access, despite configuring the NAT properly, and installing the <i>virtio</i> drivers.
+            </p>
+            <p>
+                The trick (assuming you're running <b>iptables</b>) is to edit <b>/etc/libvirt/network.conf</b>, and
+                uncomment the probably last line, <b># firewall_backend = "iptables"</b>
+            </p>
+            <p>
+                Truth be told, this article is more of a note for myself running future VMs on Linux, given this
+                problem continues to exist, but who knows, if it helps even one other person beside myself, I'd be very glad.
+            </p>
+		</div>
+	</div>
+
+    <footer class="furtherReading">
+        <hr>
+        <nav>
+            <a href="/software">software</a><a href="/">home</a><a href="/hobbies">hobbies</a><a href="/about">about</a><br><a href="/Luka_Mihailovic_CV.pdf" download="Luka_Mihailovic_CV.pdf">житије (cv)</a>
+        </nav>
+    </footer>
+</body>                                                                          
+</html>

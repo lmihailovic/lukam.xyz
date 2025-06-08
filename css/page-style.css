@@ -225,6 +225,13 @@ kbd {
   padding: 2px 4px;
 }
 
+code
+{
+  background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg0_s));
+  border: 1px solid light-dark(var(--lightmode-bg4), var(--darkmode-bg3));
+  box-shadow: 3px 3px light-dark(var(--darkmode-gray), var(--darkmode-bg0));
+}
+
 table {
   border: 1px solid light-dark(var(--lightmode-bg3), var(--darkmode-bg2));
   border-collapse: collapse;

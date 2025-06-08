@@ -84,7 +84,7 @@ body {
   color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
   margin: 0;
 
-  line-height: 1.5;
+  line-height: 1.6;
 
   font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   font-size: 1.2em;
@@ -182,7 +182,13 @@ code
 {
   font-family: "IBM Plex Mono", "Courier", "monospace";
   font-size: 0.9em;
-  font-weight: bold;
+
+  margin-right: 0.4em;
+  padding: 0.0em;
+  background-color: light-dark(var(--lightmode-bg0), var(--darkmode-bg0_s));
+  border: 1px solid light-dark(var(--lightmode-bg4), var(--darkmode-bg3));
+  box-shadow: 3px 3px light-dark(var(--darkmode-gray), var(--darkmode-bg0));
+
 }
 
 table {

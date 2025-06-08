@@ -10,4 +10,4 @@ A served-side script designed to be invoked from the iOS's Shortcuts app. Genera
 ## To do
 As of 24.3.2025:
 - [ ] fix home page on mobile
-- [ ] add more software projects
+- [x] add more software projects

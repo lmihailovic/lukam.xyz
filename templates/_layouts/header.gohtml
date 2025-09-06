@@ -1,0 +1,9 @@
+{{ define "header" }}
+    <h1 style="text-align: center">The <i>sugo</i> static site generator!</h1>
+    <nav>
+        <span> <a href="/">Home</a></span> &nbsp;
+        {{ range $link, $title := GetChildPages "" true -}}
+            <span> <a href="{{ $link }}"> {{ $title }} </a></span> &nbsp;
+        {{ end }}
+        </nav>
+{{ end }}

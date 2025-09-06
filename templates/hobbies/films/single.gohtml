@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+    <h1>{{ .Title }}</h1>
+
+    <p>Status: {{ .Status }}</p>
+
+    <p>Roles:
+        <ul>
+            {{ range .Roles }}
+                <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </p>
+
+    {{ .Content }}
+
+{{ end }}

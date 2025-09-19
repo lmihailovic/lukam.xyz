@@ -1,6 +1,6 @@
 +++
 "Title": "About",
-"Poetry": "None yet e’er drank a honey’d draught\\nUnnmixed with cup of bitter gall,\\nAnd cup of gall for honey equally doth call,\\nThat so, the mixture one may easier drink:"
+"Poetry": "None yet e’er drank a honey’d draught\nUnnmixed with cup of bitter gall,\nAnd cup of gall for honey equally doth call,\nThat so, the mixture one may easier drink:"
 +++
 
 # Howdy

@@ -1,10 +1,11 @@
 {{ define "main" }}
     <h1>{{- .Title -}}</h1>
+
     {{ .Content }}
+
     <ul>
         {{ range $link, $data := GetChildPages "hobbies" true -}}
             <li> <a href="{{ $link }}"> {{ $data.Title }} </a></li>
         {{ end }}
     </ul>
-
 {{ end }}

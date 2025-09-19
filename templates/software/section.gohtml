@@ -4,8 +4,8 @@
 {{ .Content }}
 <h3>Articles</h3>
 <ul>
-    {{ range $link, $title := GetChildPages "software" false -}}
-    <li> <a href="{{ $link }}"> {{ $title }} </a></li>
+    {{ range $link, $data := GetChildPages "software" false -}}
+    <li> <a href="{{ $link }}"> {{ $data.Title }} </a></li>
     {{ end }}
 </ul>
 

@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+
+    <nav>
+    {{ range $link, $title := GetChildPages "hobbies" true -}}
+        <a href="{{ $link }}"> {{ $title }} </a>
+    {{ end }}
+    </nav>
     <h1>{{ .Title }}</h1>
 
     <p>Status: {{ .Status }}</p>

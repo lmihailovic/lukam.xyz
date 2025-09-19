@@ -2,8 +2,8 @@
     <h1>{{ .Title }}</h1>
     <h3> {{ .Description }} </h3>
     <ul>
-        {{ range $link, $title := GetChildPages "blog" false -}}
-            <li> <a href="{{ $link }}"> {{ $title }} </a></li>
+        {{ range $link, $data := GetChildPages "blog" false -}}
+            <li> <a href="{{ $link }}"> {{ $data.Title }} </a></li>
         {{ end }}
     </ul>
     {{ .Content }}

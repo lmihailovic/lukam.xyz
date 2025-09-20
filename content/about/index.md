@@ -16,8 +16,8 @@ at [Argo Student Robotics Team](http://argorobotics.rs/).
 Besides my love for software and computers, I'm also passionate
 about films, writing, music and powerlifting. (I also enjoy a little trolling)
 
-***"An idiot admires complexity, a genius admires simplicity"***
--Terry Davis, Creator of TempleOS, and perhaps the smartest programmer who
+***"An idiot admires complexity, a genius admires simplicity"***  
+&mdash;Terry Davis, Creator of TempleOS, and perhaps the smartest programmer who
 ever lived
 
 ## Certificates

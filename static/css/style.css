@@ -18,15 +18,48 @@ body {
     font-family: 'IBM Plex Sans';
 }
 
+header {
+
+}
+
 header nav {
     display: flex;
     gap: 0 1rem;
 }
 
 footer {
+    margin-top: 4rem;
     text-align: center;
 }
 
+hr {
+    border: 0;
+    border-top: 1px solid light-dark(var(--lightmode-fg), var(--darkmode-fg));
+
+    width: 80%;
+}
+
+code {
+    /* font-family: ; */
+}
+
 table {
-    outline: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+table th {
+    border: 1px solid light-dark(var(--lightmode-fg), var(--darkmode-fg));
+    padding: 0.5rem;
+}
+
+table td {
+    border: 1px solid light-dark(var(--lightmode-fg), var(--darkmode-fg));
+    padding: 0.5rem;
+}
+
+#poem {
+    text-align: center;
+    font-style: italic;
 }

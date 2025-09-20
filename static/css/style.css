@@ -1,5 +1,32 @@
-body
-{
+:root {
+    color-scheme: light dark;
+
+    --darkmode-bg: #253443;
+    --darkmode-fg: #fff;
+
+    --lightmode-bg: #ffe;
+    --lightmode-fg: #000;
+}
+
+body {
     max-width: 640px;
-    margin: 0 auto;
+    margin: 3rem auto 5rem auto;
+
+    background-color: light-dark(var(--lightmode-bg), var(--darkmode-bg));
+    color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
+
+    font-family: 'IBM Plex Sans';
+}
+
+header nav {
+    display: flex;
+    gap: 0 1rem;
+}
+
+footer {
+    text-align: center;
+}
+
+table {
+    outline: 1px solid black;
 }

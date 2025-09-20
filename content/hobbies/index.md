@@ -1,4 +1,4 @@
 +++
-"Title": "Hobbies",
-"Description": "Mostly miscellaneous stuff."
+"Title": "Hobbies"
 +++
+Mostly miscellaneous stuff.

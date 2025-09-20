@@ -11,7 +11,7 @@ giving the VM internet access, despite configuring the NAT properly, and
 installing the virtio drivers.
 
 The trick (assuming you're running `iptables`) is to edit
-`/etc/libvirt/network.conf`, and uncomment the probably last line,
+`/etc/libvirt/network.conf`, and uncomment the probably last line, 
 `# firewall_backend = "iptables"`
 
 Truth be told, this article is more of a note for myself running future VMs on

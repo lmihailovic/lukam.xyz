@@ -1,12 +1,15 @@
 +++
 "Title": "About",
-"Poetry": "None yet e’er drank a honey’d draught\nUnnmixed with cup of bitter gall,\nAnd cup of gall for honey equally doth call,\nThat so, the mixture one may easier drink:"
+"Line1": "None yet e’er drank a honey’d draught",
+"Line2": "Unnmixed with cup of bitter gall",
+"Line3": "And cup of gall for honey equally doth call",
+"Line4": "That so, the mixture one may easier drink"
 +++
 
 # Howdy
 I am Luka Mihailović, and this is my personal webpage.
 
-Currently a writing my thesis at the [Faculty of Computing](https://raf.edu.rs/) in
+Currently writing my thesis at the [Faculty of Computing](https://raf.edu.rs/) in
 Belgrade, and active serving Secretary and Head of IT
 at [Argo Student Robotics Team](http://argorobotics.rs/).
 

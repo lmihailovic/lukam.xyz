@@ -4,8 +4,9 @@
     {{ .Content }}
 
     <ul>
-        {{ range $link, $data := GetChildPages "blog" false -}}
-            <li> <a href="{{ $link }}"> {{ $data.Title }} </a></li>
+        {{ $sorted := SortPages (GetChildPages "blog" false) "Date" true }}
+        {{ range  $p := $sorted }}
+            <li> [ {{ $p.Date}} ] <a href="{{ $p.Link }}"> {{ $p.Title }} </a></li>
         {{ end }}
     </ul>
 {{ end }}

@@ -1,6 +1,11 @@
 {{ define "main" }}
 
-    <p>{{ .Poetry }}</p>
+    <p id="poem" >
+        {{ .Line1 }} <br>
+        {{ .Line2 }} <br>
+        {{ .Line3 }} <br>
+        {{ .Line4 }}
+    </p>
 
     {{ .Content}}
 {{ end }}

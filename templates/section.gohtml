@@ -1,5 +1,12 @@
 {{ define "main" }}
-    <h1>{{- .Title -}}</h1>
-
-    {{ .Content }}
+    <div class="homeCard">
+        <h2>{{ .Name }}</h2>
+        {{ if .Profession }}
+            <p>{{ .Profession }}</p>
+            {{ if .Workplace }}
+                <p>@ {{ .Workplace }}</p>
+            {{ end }}
+        {{ end }}
+        <a href="mailto:{{ .Email }}"> {{ .Email }} </a>
+    </div>
 {{ end }}

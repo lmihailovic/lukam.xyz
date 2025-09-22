@@ -1,4 +1,7 @@
 +++
 "Title": "Luka's Website",
-"email": "mailto:luka@lukam.xyz"
+"Name": "Luka Mihailović",
+"Profession": "Software Engineer & Head of IT",
+"Workplace": "Argo Robotics Team",
+"Email": "luka@lukam.xyz"
 +++

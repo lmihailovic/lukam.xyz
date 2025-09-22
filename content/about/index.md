@@ -17,8 +17,8 @@ Meanwhile, I'm the active Vice President and Head of IT at
 
 Besides my love for software and computers, I'm also passionate
 about [films](https://lukam.xyz/hobbies/films), writing, music and powerlifting.  
-I'm unusually keen on typography, Bauhaus design philosophy, colour grading and the
-science of film emulation. Yeah, saved the weirdest for last, huh?
+I'm unusually keen on typography, Bauhaus design philosophy, Swiss style design,
+colour grading and the science of film emulation. Yeah, saved the weirdest for last, huh?
 
 Currently looking to get into game modding (if I get the time), specifically
 Source engine games, Fallout: New Vegas, Stardew Valley, or Minecraft...

@@ -9,12 +9,20 @@
 # Howdy
 I am Luka Mihailović, and this is my personal webpage.
 
-Currently writing my thesis at the [Faculty of Computing](https://raf.edu.rs/) in
-Belgrade, and active serving Secretary and Head of IT
-at [Argo Student Robotics Team](http://argorobotics.rs/).
+Recently finished my bachelor's degree in Information Technology and Systems
+at the [Faculty of Computing](https://raf.edu.rs/) in Belgrade, and soon starting
+my master's degree, also at the aforementioned faculty.  
+Meanwhile, I'm the active Vice President and Head of IT at
+[Argo Student Robotics Team](http://argorobotics.rs/).
 
 Besides my love for software and computers, I'm also passionate
-about films, writing, music and powerlifting. (I also enjoy a little trolling)
+about [films](https://lukam.xyz/hobbies/films), writing, music and powerlifting.  
+I'm unusually keen on typography, Bauhaus design philosophy, colour grading and the
+science of film emulation. Yeah, saved the weirdest for last, huh?
+
+Currently looking to get into game modding (if I get the time), specifically
+Source engine games, Fallout: New Vegas, Stardew Valley, or Minecraft...
+
 
 ***"An idiot admires complexity, a genius admires simplicity"***  
 &mdash;Terry Davis, Creator of TempleOS, and perhaps the smartest programmer who

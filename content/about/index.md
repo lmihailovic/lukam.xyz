@@ -35,3 +35,11 @@ ever lived
 | Squat    | 160 kg     | 2              |
 | Bench    | 80 kg      | 3              |
 | Deadlift | 180 kg     | 3              |
+
+### The Mountain Wreath
+There are plenty of thoughts inside this epic poem which shaped my thinking and
+personal philosphy, and helped me to better understand life in a way.
+
+As a humble gift, allow me to share my favourite verse with you. I don't ask
+much in return, just that you ponder it today, or tomorrow, or whenever you
+have the time. It's never too late to think about stuff. The verse is as follows:

@@ -7,18 +7,19 @@
 +++
 
 # Howdy
-I am Luka Mihailović, and this is my personal webpage.
+I am Luka Mihailović, a graduate student and developer, passionate about clean
+design and clear software.
 
-Recently finished my bachelor's degree in Information Technology and Systems
-at the [Faculty of Computing](https://raf.edu.rs/) in Belgrade, and soon starting
-my master's degree, also at the aforementioned faculty.  
-Meanwhile, I'm the active Vice President and Head of IT at
-[Argo Student Robotics Team](http://argorobotics.rs/).
+I'm currently pursuing a master's degree in Information Technology and Systems
+at the [Faculty of Computing](https://raf.edu.rs/) in Belgrade.  
+Meanwhile, I serve as the active VP and Head of IT at [Argo Student Robotics Team](http://argorobotics.rs/),
+where I lead and coordinate tasks on which our team depends for daily operation.
 
 Besides my love for software and computers, I'm also passionate
 about [films](https://lukam.xyz/hobbies/films), writing, music and powerlifting.  
+
 I'm unusually keen on typography, Bauhaus design philosophy, Swiss style design,
-colour grading and the science of film emulation. Yeah, saved the weirdest for last, huh?
+colour grading and the science of film emulation. 
 
 Currently looking to get into game modding (if I get the time), specifically
 Source engine games, Fallout: New Vegas, Stardew Valley, or Minecraft...
@@ -46,7 +47,7 @@ ever lived
 
 ### The Mountain Wreath
 There are plenty of thoughts inside this epic poem which shaped my thinking and
-personal philosphy, and helped me to better understand life in a way.
+personal philosophy, and helped me to better understand life in a way.
 
 As a humble gift, allow me to share my favourite verse with you. I don't ask
 much in return, just that you ponder it today, or tomorrow, or whenever you

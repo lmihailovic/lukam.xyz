@@ -3,7 +3,7 @@
 
     --darkmode-bg: #1d2021;
     --darkmode-fg: #f9f5d7;
-    --darkmode-fg1: #ddd;
+    --darkmode-fg1: #a89984;
 
     --lightmode-bg: #ffe;
     --lightmode-fg: #000;
@@ -33,13 +33,16 @@ header nav {
 footer {
     margin-top: 4rem;
     text-align: center;
+
+    color: light-dark(var(--lightmode-fg1), var(--darkmode-fg1));
 }
 
 footer > hr {
     border: 0;
-    border-top: 1px solid light-dark(var(--lightmode-fg), var(--darkmode-fg));
+    border-top: 1px solid light-dark(var(--lightmode-fg1), var(--darkmode-fg1));
 
     width: 33%;
+    
 }
 
 code {

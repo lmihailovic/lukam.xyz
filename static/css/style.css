@@ -1,11 +1,13 @@
 :root {
     color-scheme: light dark;
 
-    --darkmode-bg: #253443;
-    --darkmode-fg: #fff;
+    --darkmode-bg: #1d2021;
+    --darkmode-fg: #f9f5d7;
+    --darkmode-fg1: #ddd;
 
     --lightmode-bg: #ffe;
     --lightmode-fg: #000;
+    --lightmode-fg1: #666;
 }
 
 body {
@@ -16,6 +18,7 @@ body {
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 
     font-family: 'IBM Plex Sans';
+    line-height: 1.5;
 }
 
 header {
@@ -94,4 +97,21 @@ table td {
 
 .homeCard p:last-of-type {
     padding-bottom: 0.5rem;
+}
+
+.articlesList {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.articlesList span {
+    padding-right: 1rem;
+
+    color: light-dark(var(--lightmode-fg1), var(--darkmode-fg1));
+}
+
+@media screen and (width < 672px) {
+    body {
+        margin: 3rem 1rem 5rem 1rem;
+    }    
 }

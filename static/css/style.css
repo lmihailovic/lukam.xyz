@@ -21,10 +21,6 @@ body {
     line-height: 1.5;
 }
 
-header {
-
-}
-
 header nav {
     display: flex;
     gap: 0 1rem;
@@ -46,7 +42,7 @@ footer > hr {
 }
 
 code {
-    /* font-family: ; */
+    font-family: 'IBM Plex Mono';
 }
 
 table {

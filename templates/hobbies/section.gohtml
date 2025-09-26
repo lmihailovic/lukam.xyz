@@ -3,9 +3,15 @@
 
     {{ .Content }}
 
-    <ul>
+    <hr>
+
+    <section>
         {{ range $link, $data := GetChildPages "hobbies" true -}}
-            <li> <a href="{{ $link }}"> {{ $data.Title }} </a> - {{ $data.Description }} </li>
+            <h2><a href="{{ $link }}"> {{ $data.Title }} </a></h2>
+            <p> {{ $data.Description }} </p>
+            {{ if $data.Quote }}
+                <p> <em><strong>{{ $data.Quote }}</strong></em> <br> &mdash; {{ $data.QuoteAuthor }} </p>
+            {{ end }}
         {{ end }}
-    </ul>
+    </section>
 {{ end }}

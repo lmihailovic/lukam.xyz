@@ -17,8 +17,9 @@ body {
     background-color: light-dark(var(--lightmode-bg), var(--darkmode-bg));
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 
-    font-family: 'IBM Plex Sans';
+    font-family: "DM Mono", monospace;
     line-height: 1.5;
+    letter-spacing: -0.5px;
 }
 
 header nav {

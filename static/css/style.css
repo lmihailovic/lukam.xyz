@@ -141,6 +141,7 @@ table td {
 
     text-align: center;
     font-family: 'IBM Plex Serif';
+    letter-spacing: normal;
 }
 
 .homeCard > * {

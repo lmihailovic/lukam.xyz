@@ -63,6 +63,7 @@ table td {
 }
 
 #poem {
+    padding-top: 1rem;
     text-align: center;
     font-style: italic;
 }

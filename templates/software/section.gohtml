@@ -5,7 +5,7 @@
 
     <ul>
         {{ range $link, $data := GetChildPages "software" false -}}
-            <li> <a href="{{ $data.Url }}"> {{ $data.Title }} </a> - {{ $data.Description }}</li>
+            <li> <a href="{{ $data.Url }}"> {{- $data.Title -}} </a> - {{- $data.Description -}}</li>
         {{ end }}
     </ul>
 {{ end }}

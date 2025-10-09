@@ -3,7 +3,7 @@
 
     <nav>
     {{ range $link, $data := GetChildPages "hobbies" true -}}
-        <a href="{{ $link }}"> {{ $data.Title }} </a>
+        <a href="{{ $link }}"> {{- $data.Title -}} </a>
     {{ end }}
     </nav>
 

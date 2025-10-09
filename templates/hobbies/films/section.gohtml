@@ -5,7 +5,7 @@
 
     <ul>
         {{ range $link, $data := GetChildPages "hobbies/films" false -}}
-            <li> <a href="{{ $link }}"> {{ $data.Title }} </a></li>
+            <li> <a href="{{ $link }}"> {{- $data.Title -}} </a></li>
         {{ end }}
     </ul>
 {{ end }}

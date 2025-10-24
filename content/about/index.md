@@ -11,14 +11,12 @@ I am Luka Mihailović, a graduate student and developer, passionate about clean
 design and clear software.
 
 I'm currently pursuing a master's degree in Information Technology and Systems
-at the [Faculty of Computing](https://raf.edu.rs/) in Belgrade.  
-
-Meanwhile, I serve as the active VP and Head of IT at [Argo Student Robotics Team](http://argorobotics.rs/),
+at the [Faculty of Computing](https://raf.edu.rs/) in Belgrade. Meanwhile, I
+serve as the active VP and Head of IT at [Argo Student Robotics Team](http://argorobotics.rs/),
 where I lead and coordinate tasks on which our team depends for daily operation.
 
 Besides my love for software and computers, I'm also passionate
-about [films](https://lukam.xyz/hobbies/films), writing, music and powerlifting.  
-
+about [films](https://lukam.xyz/hobbies/films), writing, music and powerlifting.
 I'm unusually keen on typography, Bauhaus design philosophy, Swiss style design,
 colour grading and the science of film emulation. 
 

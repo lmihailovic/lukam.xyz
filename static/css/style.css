@@ -1,59 +1,3 @@
-@font-face {
-    font-family: "DM Mono";
-    src: url(/fonts/dmmono-regular-webfont.woff2);
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "DM Mono";
-    src: url(/fonts/dmmono-italic-webfont.woff2);
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "DM Mono";
-    src: url(/fonts/dmmono-medium-webfont.woff2);
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "DM Mono";
-    src: url(/fonts/dmmono-mediumitalic-webfont.woff2);
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "IBM Plex Serif";
-    src: url(/fonts/ibmplexserif-regular-webfont.woff2);
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "IBM Plex Serif";
-    src: url(/fonts/ibmplexserif-italic-webfont.woff2);
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "IBM Plex Serif";
-    src: url(/fonts/ibmplexserif-bold-webfont.woff2);
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "IBM Plex Serif";
-    src: url(/fonts/ibmplexserif-bolditalic-webfont.woff2);
-    font-weight: 700;
-    font-style: italic;
-}
-
 :root {
     color-scheme: light dark;
 
@@ -61,7 +5,7 @@
     --darkmode-fg: #f9f5d7;
     --darkmode-fg1: #a89984;
 
-    --lightmode-bg: #ffe;
+    --lightmode-bg: #e5e5e5;
     --lightmode-fg: #000;
     --lightmode-fg1: #666;
 }
@@ -73,9 +17,8 @@ body {
     background-color: light-dark(var(--lightmode-bg), var(--darkmode-bg));
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 
-    font-family: "DM Mono", monospace;
+    font-family: "Arial", sans-serif;
     line-height: 1.5;
-    letter-spacing: -0.5px;
 }
 
 header nav {
@@ -95,11 +38,19 @@ footer > hr {
     border-top: 1px solid light-dark(var(--lightmode-fg1), var(--darkmode-fg1));
 
     width: 33%;
-    
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2, h3 {
+    font-size: 1.2rem;
 }
 
 code {
-    font-family: 'IBM Plex Mono';
+    font-family: 'Go Mono';
+    font-size: 0.9rem;
 }
 
 table {
@@ -140,13 +91,17 @@ table td {
     color: light-dark(var(--darkmode-fg), var(--lightmode-fg));
 
     text-align: center;
-    font-family: 'IBM Plex Serif';
+    font-family: 'Times New Roman';
     letter-spacing: normal;
 }
 
 .homeCard > * {
     margin: 0;
     color: #000;
+}
+
+.homeCard h2 {
+    font-size: 1.5rem;
 }
 
 .homeCard p {

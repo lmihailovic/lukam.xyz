@@ -39,8 +39,8 @@
 }
 
 ::selection {
-    color: light-dark(var(--darkmode-fg), var(--lightmode-fg));
-    background-color: light-dark(var(--darkmode-bg), var(--lightmode-bg));
+    color: light-dark(var(--lightmode-bg), var(--lightmode-fg));
+    background-color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 }
 
 body {

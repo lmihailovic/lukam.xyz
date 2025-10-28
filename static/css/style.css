@@ -33,9 +33,14 @@
     --darkmode-fg: #f9f5d7;
     --darkmode-fg1: #a89984;
 
-    --lightmode-bg: #ccc;
+    --lightmode-bg: #cecece;
     --lightmode-fg: #000;
     --lightmode-fg1: #666;
+}
+
+::selection {
+    color: light-dark(var(--darkmode-fg), var(--lightmode-fg));
+    background-color: light-dark(var(--darkmode-bg), var(--lightmode-bg));
 }
 
 body {

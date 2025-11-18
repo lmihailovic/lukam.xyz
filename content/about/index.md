@@ -29,8 +29,8 @@ Source engine games, Fallout: New Vegas, Stardew Valley, or Minecraft...
 ever lived
 
 ## Certificates
-- [European Rover Challenge 2024](certificates/iprlxargo-luka-mihailovic-erc2024-on-site.pdf)
-- [OpenIT 2024](certificates/openit2024-luka-mihailovic-cysec.pdf)
+- [European Rover Challenge 2024](/certificates/iprlxargo-luka-mihailovic-erc2024-on-site.pdf)
+- [OpenIT 2024](/certificates/openit2024-luka-mihailovic-cysec.pdf)
 
 ## Social media
 - [LinkedIn](https://www.linkedin.com/in/luka-mihailovi%C4%87/)

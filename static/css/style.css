@@ -44,7 +44,7 @@
 }
 
 body {
-    max-width: 640px;
+    max-width: 800px;
     margin: 3rem auto 5rem auto;
 
     background-color: light-dark(var(--lightmode-bg), var(--darkmode-bg));

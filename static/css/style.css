@@ -44,13 +44,14 @@
 }
 
 body {
-    max-width: 800px;
+    max-width: 640px;
     margin: 3rem auto 5rem auto;
 
     background-color: light-dark(var(--lightmode-bg), var(--darkmode-bg));
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 
     font-family: "Arial", sans-serif;
+    font-size: 1.125rem;
     line-height: 1.5;
 }
 
@@ -74,16 +75,20 @@ footer > hr {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 h2, h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 code {
     font-family: "Go Mono", monospace;
-    font-size: 0.9rem;
+    font-size: 1rem;
+
+    background: light-dark(rgba(0, 0, 0, 0.07), rgba(255, 255, 255, 0.07));
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
 table {

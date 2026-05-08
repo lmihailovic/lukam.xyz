@@ -1,6 +1,6 @@
 +++
 "Title": "Notes on using NAT in kvm/qemu VM",
-"Date": "08-06-2025"
+"Date": "2025-06-08"
 +++
 
 A short one today, since I wanted to share my easy fix to a seemingly not so

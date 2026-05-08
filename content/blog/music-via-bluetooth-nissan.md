@@ -1,8 +1,7 @@
 +++
-"title": "How to play music via Bluetooth on Nissan Qashqai 2012?",
-"date": "8-5-2026"
+"Title": "How to play music via Bluetooth on Nissan Qashqai 2012?",
+"Date": "2026-05-08"
 +++
-# How to play music via Bluetooth on Nissan Qashqai 2012?
 
 Nissan's multimedia might seem basic, but it does have _Bluetooth_ written on it (literally). But there is no Bluetooth button, or any clear way to play music from your phone over Bluetooth.
 

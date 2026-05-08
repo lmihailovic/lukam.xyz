@@ -1,6 +1,6 @@
 +++
 "Title": "Writing sugo...",
-"Date": "22-09-2025"
+"Date": "2025-09-22"
 +++
 
 Cow tools.

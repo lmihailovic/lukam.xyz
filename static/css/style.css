@@ -169,7 +169,7 @@ table td {
     list-style-type: none;
 }
 
-.articlesList span {
+.articlesList time {
     padding-right: 1rem;
 
     color: light-dark(var(--lightmode-fg1), var(--darkmode-fg1));

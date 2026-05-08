@@ -60,6 +60,10 @@ nav {
     gap: 0 1rem;
 }
 
+main {
+    line-height: 1.6;
+}
+
 footer {
     margin-top: 4rem;
     text-align: center;

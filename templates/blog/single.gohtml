@@ -1,6 +1,6 @@
 {{ define "main" }}
     <h1>{{- .Title -}}</h1>
-    <p class="blogDate"> {{ .Date }} </p>
+    <time datetime="{{ .Date }}"> {{ .Date }} </time>
 
 
     {{- if .Description}}

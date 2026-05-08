@@ -6,7 +6,7 @@
     <ul class="articlesList">
         {{ $sorted := SortPages (GetChildPages "blog" false) "Date" true }}
         {{ range  $p := $sorted }}
-            <li> <span> {{ $p.Date}} </span> <a href="{{ $p.Link }}"> {{ $p.Title }} </a></li>
+            <li> <time datetime="{{$p.Date}}"> {{ $p.Date}} </time> <a href="{{ $p.Link }}"> {{ $p.Title }} </a></li>
         {{ end }}
     </ul>
 {{ end }}

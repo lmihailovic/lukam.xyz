@@ -6,19 +6,13 @@ generator, [sugo](https://github.com/lmihailovic/sugo).
 ## Structure
 
 The website structure mirrors the intended
-[sugo](https://github.com/lmihailovic/sugo) website structure.
+[sugo](https://github.com/lmihailovic/sugo) website structure:
 
-### Content
-
-The content for the pages itself is contained inside the `content/` directory.
-
-### Templates
-
-Templates are specified in `templates/`.
-
-### Static
-
-All images, scripts, styles, etc. are located in `static/`.
+| Directory    | Description                          |
+|--------------|--------------------------------------|
+| `content/`   | The content for the pages themselves |
+| `templates/` | Filled with data from `content/`     |
+| `static/`    | Images, fonts, scripts, styles...    |
 
 ## How to deploy
 

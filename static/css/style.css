@@ -36,6 +36,9 @@
     --lightmode-bg: #f2f0ef;
     --lightmode-fg: #000;
     --lightmode-fg1: #666;
+
+    --text-body: 1.125rem;
+    --text-scale: 1.333;
 }
 
 ::selection {
@@ -51,18 +54,13 @@ body {
     color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
 
     font-family: "Arial", sans-serif;
-    font-size: 1.125rem;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
     gap: 0 1rem;
-}
-
-main {
-    line-height: 1.6;
 }
 
 footer {
@@ -80,11 +78,21 @@ footer > hr {
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: calc(1.125rem * var(--text-scale) * var(--text-scale) * var(--text-scale));
+    line-height: 1.2;
+    font-weight: 600;
 }
 
-h2, h3 {
-    font-size: 1.5rem;
+h2 {
+    font-size: calc(1.125rem * var(--text-scale) * var(--text-scale));
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: calc(1.125rem * var(--text-scale));
+    line-height: 1.3;
+    font-weight: 600;
 }
 
 code {

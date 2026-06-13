@@ -5,11 +5,11 @@
 
 Nissan's multimedia might seem basic, but it does have _Bluetooth_ written on it (literally). But there is no Bluetooth button, or any clear way to play music from your phone over Bluetooth.
 
-## Pairing the phone
+### Pairing the phone
 
 Press the _SETUP_ button, and navigate the UI to achieve said task (its intuitive, just follow your gut).
 
-## Playing music
+### Playing music
 
 Once the phone has been paired:
 

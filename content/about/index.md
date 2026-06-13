@@ -6,7 +6,7 @@
 "Line4": "That so, the mixture one may easier drink"
 +++
 
-# Howdy
+## Howdy
 I am Luka Mihailović, a graduate student and developer, passionate about clean
 design and clear software.
 
@@ -28,11 +28,11 @@ Source engine games, Fallout: New Vegas, Stardew Valley, or Minecraft...
 &mdash;Terry Davis, Creator of TempleOS, and perhaps the smartest programmer who
 ever lived
 
-## Certificates
+### Certificates
 - [European Rover Challenge 2024](/certificates/iprlxargo-luka-mihailovic-erc2024-on-site.pdf)
 - [OpenIT 2024](/certificates/openit2024-luka-mihailovic-cysec.pdf)
 
-## Social media
+### Social media
 - [LinkedIn](https://www.linkedin.com/in/luka-mihailovi%C4%87/)
 - [GitHub](https://github.com/lmihailovic)
 

@@ -1,13 +1,33 @@
-# What is this?
-This is the hand-written source code for my webpage.
+# lukam.xyz
 
-## The *Mobile Create Blog* script
-A served-side script designed to be invoked from the iOS's Shortcuts app. Generates a page within the */blog/* section.
-```Shell
-./mobileCreateBlog.sh "Blog Title" "Current Date" "Content"
+This is the code for my personal website, which uses my own static site
+generator, [sugo](https://github.com/lmihailovic/sugo).
+
+## Structure
+
+The website structure mirrors the intended
+[sugo](https://github.com/lmihailovic/sugo) website structure:
+
+| Directory    | Description                          |
+|--------------|--------------------------------------|
+| `content/`   | The content for the pages themselves |
+| `templates/` | Filled with data from `content/`     |
+| `static/`    | Images, fonts, scripts, styles...    |
+
+## How to deploy
+
+1. Make sure you have `sugo` in your `$PATH`
+
+2. Go to the root of the repository and run:
+
+```shell
+sugo
 ```
 
-## To do
-As of 24.3.2025:
-- [ ] fix home page on mobile
-- [x] add more software projects
+3. Copy the contents of the newly made `website/` directory to your server's
+`public_html` directory.
+
+### To do
+
+- [ ] Add footnote support.
+- [ ] Add the style for blog post notes, between date and content, in italics or whatever.

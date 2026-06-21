@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ block "head" . }} {{ end }}
+</head>
+<body>
+    <header>
+        {{ block "header" . }} lorem ipsum. {{ end }}
+    </header>
+    <main>
+        {{ block "main" . }} Lorem ipsum. {{ end }}
+    </main>
+    <footer>
+        {{ template "footer" }}
+    </footer>
+</body>
+</html>

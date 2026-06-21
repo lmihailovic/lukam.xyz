@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <h2>{{- .Title -}}</h2>
+    <time datetime="{{ .Date }}"> {{ .Date }} </time>
+
+
+    {{- if .Description}}
+        <p>{{ .Description }} </p>
+    {{- end }}
+
+    {{ .Content }}
+{{ end }}

@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <h2>{{- .Title -}}</h2>
+
+    {{ .Content }}
+
+    <table>
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Description </th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range $link, $data := GetChildPages "software" false -}}
+                <tr>
+                    <td> <a href="{{ $link }}"> {{- $data.Title -}} </a> </td>
+                    <td> {{- $data.Description -}} </td>
+                </tr>
+            {{ end }}
+        </tbody>
+    </table>
+{{ end }}

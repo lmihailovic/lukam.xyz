@@ -1,0 +1,9 @@
+{{ define "header" }}
+    <h1>Luka's website</h1>
+    <nav>
+        <a href="/">Home</a>
+        {{ range $link, $data := GetChildPages "" true -}}
+            <a href="{{ $link }}">{{- $data.Title -}}</a>
+        {{ end }}
+    </nav>
+{{ end }}

@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <h2>{{ .Title }}</h2>
+    
+    {{ .Content }}
+
+    <ul class="articlesList">
+        {{ $sorted := SortPages (GetChildPages "blog" false) "Date" true }}
+        {{ range  $p := $sorted }}
+            <li> <time datetime="{{$p.Date}}"> {{ $p.Date}} </time> <a href="{{ $p.Link }}"> {{ $p.Title }} </a></li>
+        {{ end }}
+    </ul>
+{{ end }}

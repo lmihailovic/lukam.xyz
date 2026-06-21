@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Go Mono";
+    src: url(/fonts/go-mono.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Go Mono";
+    src: url(/fonts/go-mono-bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Go Mono";
+    src: url(/fonts/go-mono-italic.woff2);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Go Mono";
+    src: url(/fonts/go-mono-bold-italic.woff2);
+    font-weight: 700;
+    font-style: italic;
+}
+
+:root {
+    color-scheme: light dark;
+
+    --darkmode-bg: #1d2021;
+    --darkmode-fg: #f9f5d7;
+    --darkmode-fg1: #a89984;
+
+    --lightmode-bg: #f2f0ef;
+    --lightmode-fg: #000;
+    --lightmode-fg1: #666;
+
+    --text-body: 1.125rem;
+    --text-scale: 1.333;
+}
+
+::selection {
+    color: light-dark(var(--lightmode-bg), var(--lightmode-fg));
+    background-color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+body {
+    max-width: 640px;
+    margin: 3rem auto 5rem auto;
+
+    background-color: light-dark(var(--lightmode-bg), var(--darkmode-bg));
+    color: light-dark(var(--lightmode-fg), var(--darkmode-fg));
+
+    font-family: "Arial", sans-serif;
+    font-size: var(--text-body);
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+}
+
+footer {
+    margin-top: 4rem;
+    text-align: center;
+
+    color: light-dark(var(--lightmode-fg1), var(--darkmode-fg1));
+}
+
+footer > hr {
+    border: 0;
+    border-top: 1px solid light-dark(var(--lightmode-fg1), var(--darkmode-fg1));
+
+    width: 33%;
+}
+
+h1 {
+    font-size: clamp(1.75rem, 1.5rem + 2.5vw, calc(var(--text-body) * var(--text-scale) * var(--text-scale) * var(--text-scale)));
+
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 1.2rem + 1.5vw, calc(var(--text-body) * var(--text-scale) * var(--text-scale)));
+
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: clamp(1.2rem, 1.05rem + 0.75vw, calc(var(--text-body) * var(--text-scale)));
+
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+h2, h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h2 + p,
+h3 + p {
+    margin-top: 0;
+}
+
+code {
+    font-family: "Go Mono", monospace;
+    font-size: 1rem;
+
+    background: light-dark(rgba(0, 0, 0, 0.07), rgba(255, 255, 255, 0.07));
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+pre {
+    font-family: "Go Mono", monospace;
+    font-size: 1rem;
+
+    background: light-dark(rgba(0, 0, 0, 0.07), rgba(255, 255, 255, 0.07));
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+
+    overflow: auto;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+table th {
+    border: 1px solid light-dark(var(--lightmode-fg), var(--darkmode-fg));
+    padding: 0.5rem;
+}
+
+table td {
+    border: 1px solid light-dark(var(--lightmode-fg), var(--darkmode-fg));
+    padding: 0.5rem;
+}
+
+#poem {
+    padding-top: 1rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.homeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 65%;
+    margin: 5rem auto 0 auto;
+
+    aspect-ratio: 1.75;
+
+    background-color: #fff;
+    border: 1px solid #000;
+    color: light-dark(var(--darkmode-fg), var(--lightmode-fg));
+
+    text-align: center;
+    font-family: 'Times New Roman';
+    letter-spacing: normal;
+}
+
+.homeCard > * {
+    margin: 0;
+    color: #000;
+}
+
+.homeCard h2 {
+    font-size: 1.5rem;
+}
+
+.homeCard p {
+    font-style: italic;
+}
+
+.homeCard p:last-of-type {
+    padding-bottom: 0.5rem;
+}
+
+.articlesList {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.articlesList time {
+    padding-right: 1rem;
+
+    color: light-dark(var(--lightmode-fg1), var(--darkmode-fg1));
+}
+
+@media screen and (width < 672px) {
+    body {
+        margin: 3rem 1rem 5rem 1rem;
+    }    
+}

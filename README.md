@@ -30,3 +30,4 @@ sugo
 ### To do
 
 - [ ] Add footnote support.
+- [ ] Add the style for blog post notes, between date and content, in italics or whatever.
